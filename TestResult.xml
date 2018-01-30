@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="108" result="Failed" total="108" passed="71" failed="37" inconclusive="0" skipped="0" asserts="94" engine-version="3.8.0.0" clr-version="4.0.30319.42000" start-time="2018-01-30 08:24:37Z" end-time="2018-01-30 08:24:38Z" duration="1.159373">
+  <command-line><![CDATA[packages\NUnit.ConsoleRunner.3.8.0\tools\nunit3-console.exe  "CalculatorTests\bin\debug\CalculatorTests.dll"]]></command-line>
+  <test-suite type="Assembly" id="0-1133" name="CalculatorTests.dll" fullname="D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\bin\debug\CalculatorTests.dll" runstate="Runnable" testcasecount="108" result="Failed" site="Child" start-time="2018-01-30 08:24:37Z" end-time="2018-01-30 08:24:38Z" duration="0.198638" total="108" passed="71" failed="37" warnings="0" inconclusive="0" skipped="0" asserts="94">
+    <environment framework-version="3.9.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.14393.0" platform="Win32NT" cwd="D:\Gorsky\LabProjects\CalculatorTests" machine-name="EPBYMINW0684" user="Aliaksandr_Horski" user-domain="MINSK" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="D:\Gorsky\LabProjects\CalculatorTests" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="12476" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1134" name="CalculatorTests" fullname="CalculatorTests" runstate="Runnable" testcasecount="108" result="Failed" site="Child" start-time="2018-01-30 08:24:37Z" end-time="2018-01-30 08:24:38Z" duration="0.173431" total="108" passed="71" failed="37" warnings="0" inconclusive="0" skipped="0" asserts="94">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="0-1000" name="AbsTest" fullname="CalculatorTests.AbsTest" classname="CalculatorTests.AbsTest" runstate="Runnable" testcasecount="12" result="Failed" site="Child" start-time="2018-01-30 08:24:37Z" end-time="2018-01-30 08:24:38Z" duration="0.102214" total="12" passed="7" failed="5" warnings="0" inconclusive="0" skipped="0" asserts="9">
+        <properties>
+          <property name="Category" value="Abs" />
+        </properties>
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="0-1014" name="NegativeAbsTests" fullname="CalculatorTests.AbsTest.NegativeAbsTests" classname="CalculatorTests.AbsTest" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2018-01-30 08:24:37Z" end-time="2018-01-30 08:24:37Z" duration="0.058473" total="5" passed="4" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <properties>
+            <property name="Category" value="Negative" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1009" name="NegativeAbsTests(-1,-1)" fullname="CalculatorTests.AbsTest.NegativeAbsTests(-1,-1)" methodname="NegativeAbsTests" classname="CalculatorTests.AbsTest" runstate="Runnable" seed="1337595077" result="Passed" start-time="2018-01-30 08:24:37Z" end-time="2018-01-30 08:24:37Z" duration="0.032378" asserts="1">
+            <output><![CDATA[NUnit test(s) are started
+NUnit test(s) are complete
+]]></output>
+          </test-case>
+          <test-case id="0-1010" name="NegativeAbsTests(123,-123)" fullname="CalculatorTests.AbsTest.NegativeAbsTests(123,-123)" methodname="NegativeAbsTests" classname="CalculatorTests.AbsTest" runstate="Runnable" seed="585474953" result="Passed" start-time="2018-01-30 08:24:37Z" end-time="2018-01-30 08:24:37Z" duration="0.000123" asserts="1">
+            <output><![CDATA[NUnit test(s) are started
+NUnit test(s) are complete
+]]></output>
+          </test-case>
+          <test-case id="0-1011" name="NegativeAbsTests(-0.456d,-0.456d)" fullname="CalculatorTests.AbsTest.NegativeAbsTests(-0.456d,-0.456d)" methodname="NegativeAbsTests" classname="CalculatorTests.AbsTest" runstate="Runnable" seed="616910978" result="Passed" start-time="2018-01-30 08:24:37Z" end-time="2018-01-30 08:24:37Z" duration="0.000056" asserts="1">
+            <output><![CDATA[NUnit test(s) are started
+NUnit test(s) are complete
+]]></output>
+          </test-case>
+          <test-case id="0-1012" name="NegativeAbsTests(int.MaxValue,int.MinValue)" fullname="CalculatorTests.AbsTest.NegativeAbsTests(int.MaxValue,int.MinValue)" methodname="NegativeAbsTests" classname="CalculatorTests.AbsTest" runstate="Runnable" seed="97654148" result="Passed" start-time="2018-01-30 08:24:37Z" end-time="2018-01-30 08:24:37Z" duration="0.000049" asserts="1">
+            <output><![CDATA[NUnit test(s) are started
+NUnit test(s) are complete
+]]></output>
+          </test-case>
+          <test-case id="0-1013" name="NegativeAbsTests(&quot;-5.6&quot;,5.6d)" fullname="CalculatorTests.AbsTest.NegativeAbsTests(&quot;-5.6&quot;,5.6d)" methodname="NegativeAbsTests" classname="CalculatorTests.AbsTest" runstate="Runnable" seed="889766942" result="Failed" label="Error" start-time="2018-01-30 08:24:37Z" end-time="2018-01-30 08:24:37Z" duration="0.019444" asserts="0">
+            <failure>
+              <message><![CDATA[System.ArgumentException : Object of type 'System.String' cannot be converted to type 'System.Double'.]]></message>
+              <stack-trace><![CDATA[   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at NUnit.Framework.Internal.Reflect.InvokeMethod(MethodInfo method, Object fixture, Object[] args)]]></stack-trace>
+            </failure>
+            <output><![CDATA[NUnit test(s) are started
+NUnit test(s) are complete
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1008" name="PositiveAbsTests" fullname="CalculatorTests.AbsTest.PositiveAbsTests" classname="CalculatorTests.AbsTest" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2018-01-30 08:24:37Z" end-time="2018-01-30 08:24:37Z" duration="0.031883" total="7" passed="3" failed="4" warnings="0" inconclusive="0" skipped="0" asserts="5">
+          <properties>
+            <property name="Category" value="Positive" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1001" name="PositiveAbsTests(0,0)" fullname="CalculatorTests.AbsTest.PositiveAbsTests(0,0)" methodname="PositiveAbsTests" classname="CalculatorTests.AbsTest" runstate="Runnable" seed="1158325539" result="Passed" start-time="2018-01-30 08:24:37Z" end-time="2018-01-30 08:24:37Z" duration="0.000679" asserts="1">
+            <output><![CDATA[NUnit test(s) are started
+NUnit test(s) are complete
+]]></output>
+          </test-case>
+          <test-case id="0-1002" name="PositiveAbsTests(-1,1)" fullname="CalculatorTests.AbsTest.PositiveAbsTests(-1,1)" methodname="PositiveAbsTests" classname="CalculatorTests.AbsTest" runstate="Runnable" seed="1490615604" result="Passed" start-time="2018-01-30 08:24:37Z" end-time="2018-01-30 08:24:37Z" duration="0.000076" asserts="1">
+            <output><![CDATA[NUnit test(s) are started
+NUnit test(s) are complete
+]]></output>
+          </test-case>
+          <test-case id="0-1003" name="PositiveAbsTests(123,123)" fullname="CalculatorTests.AbsTest.PositiveAbsTests(123,123)" methodname="PositiveAbsTests" classname="CalculatorTests.AbsTest" runstate="Runnable" seed="1017300257" result="Passed" start-time="2018-01-30 08:24:37Z" end-time="2018-01-30 08:24:37Z" duration="0.000050" asserts="1">
+            <output><![CDATA[NUnit test(s) are started
+NUnit test(s) are complete
+]]></output>
+          </test-case>
+          <test-case id="0-1004" name="PositiveAbsTests(-0.456d,0.456d)" fullname="CalculatorTests.AbsTest.PositiveAbsTests(-0.456d,0.456d)" methodname="PositiveAbsTests" classname="CalculatorTests.AbsTest" runstate="Runnable" seed="704310016" result="Failed" start-time="2018-01-30 08:24:37Z" end-time="2018-01-30 08:24:37Z" duration="0.027011" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 0.0d
+  But was:  0.45600000000000002d
+]]></message>
+              <stack-trace><![CDATA[   at CalculatorTests.AbsTest.PositiveAbsTests(Double initValue, Double expectedValue) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\AbsTest.cs:line 43
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[NUnit test(s) are started
+NUnit test(s) are complete
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 0.0d
+  But was:  0.45600000000000002d
+]]></message>
+                <stack-trace><![CDATA[   at CalculatorTests.AbsTest.PositiveAbsTests(Double initValue, Double expectedValue) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\AbsTest.cs:line 43
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1005" name="PositiveAbsTests(int.MinValue,int.MaxValue)" fullname="CalculatorTests.AbsTest.PositiveAbsTests(int.MinValue,int.MaxValue)" methodname="PositiveAbsTests" classname="CalculatorTests.AbsTest" runstate="Runnable" seed="1445763367" result="Failed" label="Error" start-time="2018-01-30 08:24:37Z" end-time="2018-01-30 08:24:37Z" duration="0.001618" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Abs(Object a)
+   at CalculatorTests.AbsTest.PositiveAbsTests(Double initValue, Double expectedValue) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\AbsTest.cs:line 43]]></stack-trace>
+            </failure>
+            <output><![CDATA[NUnit test(s) are started
+NUnit test(s) are complete
+]]></output>
+          </test-case>
+          <test-case id="0-1006" name="PositiveAbsTests(double.MinValue,double.MaxValue)" fullname="CalculatorTests.AbsTest.PositiveAbsTests(double.MinValue,double.MaxValue)" methodname="PositiveAbsTests" classname="CalculatorTests.AbsTest" runstate="Runnable" seed="1727575346" result="Failed" label="Error" start-time="2018-01-30 08:24:37Z" end-time="2018-01-30 08:24:37Z" duration="0.001450" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Abs(Object a)
+   at CalculatorTests.AbsTest.PositiveAbsTests(Double initValue, Double expectedValue) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\AbsTest.cs:line 43]]></stack-trace>
+            </failure>
+            <output><![CDATA[NUnit test(s) are started
+NUnit test(s) are complete
+]]></output>
+          </test-case>
+          <test-case id="0-1007" name="PositiveAbsTests(-5.6d,5.6d)" fullname="CalculatorTests.AbsTest.PositiveAbsTests(-5.6d,5.6d)" methodname="PositiveAbsTests" classname="CalculatorTests.AbsTest" runstate="Runnable" seed="242808669" result="Failed" start-time="2018-01-30 08:24:37Z" end-time="2018-01-30 08:24:37Z" duration="0.000806" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 6.0d
+  But was:  5.5999999999999996d
+]]></message>
+              <stack-trace><![CDATA[   at CalculatorTests.AbsTest.PositiveAbsTests(Double initValue, Double expectedValue) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\AbsTest.cs:line 43
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[NUnit test(s) are started
+NUnit test(s) are complete
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 6.0d
+  But was:  5.5999999999999996d
+]]></message>
+                <stack-trace><![CDATA[   at CalculatorTests.AbsTest.PositiveAbsTests(Double initValue, Double expectedValue) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\AbsTest.cs:line 43
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1015" name="AddTest" fullname="CalculatorTests.AddTest" classname="CalculatorTests.AddTest" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.001846" total="8" passed="7" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="8">
+        <properties>
+          <property name="Category" value="Add" />
+        </properties>
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="0-1024" name="PositiveAddTests" fullname="CalculatorTests.AddTest.PositiveAddTests" classname="CalculatorTests.AddTest" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.001598" total="8" passed="7" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="8">
+          <properties>
+            <property name="Category" value="Positive" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1016" name="PositiveAddTests(0,0,0)" fullname="CalculatorTests.AddTest.PositiveAddTests(0,0,0)" methodname="PositiveAddTests" classname="CalculatorTests.AddTest" runstate="Runnable" seed="416128458" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000372" asserts="1" />
+          <test-case id="0-1017" name="PositiveAddTests(-1,1,0)" fullname="CalculatorTests.AddTest.PositiveAddTests(-1,1,0)" methodname="PositiveAddTests" classname="CalculatorTests.AddTest" runstate="Runnable" seed="959909796" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000049" asserts="1" />
+          <test-case id="0-1018" name="PositiveAddTests(123,123,246)" fullname="CalculatorTests.AddTest.PositiveAddTests(123,123,246)" methodname="PositiveAddTests" classname="CalculatorTests.AddTest" runstate="Runnable" seed="471164116" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000043" asserts="1" />
+          <test-case id="0-1019" name="PositiveAddTests(-0.456d,0.456d,0)" fullname="CalculatorTests.AddTest.PositiveAddTests(-0.456d,0.456d,0)" methodname="PositiveAddTests" classname="CalculatorTests.AddTest" runstate="Runnable" seed="1345338781" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000038" asserts="1" />
+          <test-case id="0-1020" name="PositiveAddTests(-9,-6,-15)" fullname="CalculatorTests.AddTest.PositiveAddTests(-9,-6,-15)" methodname="PositiveAddTests" classname="CalculatorTests.AddTest" runstate="Runnable" seed="1911235411" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000048" asserts="1" />
+          <test-case id="0-1021" name="PositiveAddTests(5.6d,5.6d,11.2d)" fullname="CalculatorTests.AddTest.PositiveAddTests(5.6d,5.6d,11.2d)" methodname="PositiveAddTests" classname="CalculatorTests.AddTest" runstate="Runnable" seed="532660417" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000042" asserts="1" />
+          <test-case id="0-1022" name="PositiveAddTests(int.MinValue,int.MaxValue,0)" fullname="CalculatorTests.AddTest.PositiveAddTests(int.MinValue,int.MaxValue,0)" methodname="PositiveAddTests" classname="CalculatorTests.AddTest" runstate="Runnable" seed="1062258032" result="Failed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000855" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: -1.0d
+  But was:  0.0d
+]]></message>
+              <stack-trace><![CDATA[   at CalculatorTests.AddTest.PositiveAddTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\AddTest.cs:line 33
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: -1.0d
+  But was:  0.0d
+]]></message>
+                <stack-trace><![CDATA[   at CalculatorTests.AddTest.PositiveAddTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\AddTest.cs:line 33
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1023" name="PositiveAddTests(double.MinValue,double.MaxValue,0)" fullname="CalculatorTests.AddTest.PositiveAddTests(double.MinValue,double.MaxValue,0)" methodname="PositiveAddTests" classname="CalculatorTests.AddTest" runstate="Runnable" seed="116294529" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000059" asserts="1" />
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1025" name="CosTest" fullname="CalculatorTests.CosTest" classname="CalculatorTests.CosTest" runstate="Runnable" testcasecount="10" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.001016" total="10" passed="10" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="10">
+        <properties>
+          <property name="Category" value="Cos" />
+        </properties>
+        <test-suite type="ParameterizedMethod" id="0-1036" name="PositiveCosTests" fullname="CalculatorTests.CosTest.PositiveCosTests" classname="CalculatorTests.CosTest" runstate="Runnable" testcasecount="10" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000815" total="10" passed="10" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="10">
+          <properties>
+            <property name="Category" value="Positive" />
+          </properties>
+          <test-case id="0-1026" name="PositiveCosTests(0,1.0d)" fullname="CalculatorTests.CosTest.PositiveCosTests(0,1.0d)" methodname="PositiveCosTests" classname="CalculatorTests.CosTest" runstate="Runnable" seed="447197135" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000351" asserts="1" />
+          <test-case id="0-1027" name="PositiveCosTests(-1,0.54030230586814d)" fullname="CalculatorTests.CosTest.PositiveCosTests(-1,0.54030230586814d)" methodname="PositiveCosTests" classname="CalculatorTests.CosTest" runstate="Runnable" seed="224569809" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000047" asserts="1" />
+          <test-case id="0-1028" name="PositiveCosTests(123,-0.887968906691855d)" fullname="CalculatorTests.CosTest.PositiveCosTests(123,-0.887968906691855d)" methodname="PositiveCosTests" classname="CalculatorTests.CosTest" runstate="Runnable" seed="1656059894" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000044" asserts="1" />
+          <test-case id="0-1029" name="PositiveCosTests(-0.456d,0.897821116807522d)" fullname="CalculatorTests.CosTest.PositiveCosTests(-0.456d,0.897821116807522d)" methodname="PositiveCosTests" classname="CalculatorTests.CosTest" runstate="Runnable" seed="1263263274" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000036" asserts="1" />
+          <test-case id="0-1030" name="PositiveCosTests(-9,-0.911130261884677d)" fullname="CalculatorTests.CosTest.PositiveCosTests(-9,-0.911130261884677d)" methodname="PositiveCosTests" classname="CalculatorTests.CosTest" runstate="Runnable" seed="1844965308" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000043" asserts="1" />
+          <test-case id="0-1031" name="PositiveCosTests(5.6d,0.77556587851025d)" fullname="CalculatorTests.CosTest.PositiveCosTests(5.6d,0.77556587851025d)" methodname="PositiveCosTests" classname="CalculatorTests.CosTest" runstate="Runnable" seed="2090122796" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000041" asserts="1" />
+          <test-case id="0-1032" name="PositiveCosTests(int.MinValue,0.237816194575489d)" fullname="CalculatorTests.CosTest.PositiveCosTests(int.MinValue,0.237816194575489d)" methodname="PositiveCosTests" classname="CalculatorTests.CosTest" runstate="Runnable" seed="638598207" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000037" asserts="1" />
+          <test-case id="0-1033" name="PositiveCosTests(double.MinValue,double.MinValue)" fullname="CalculatorTests.CosTest.PositiveCosTests(double.MinValue,double.MinValue)" methodname="PositiveCosTests" classname="CalculatorTests.CosTest" runstate="Runnable" seed="1972058012" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000041" asserts="1" />
+          <test-case id="0-1034" name="PositiveCosTests(int.MaxValue,-0.68883669187594d)" fullname="CalculatorTests.CosTest.PositiveCosTests(int.MaxValue,-0.68883669187594d)" methodname="PositiveCosTests" classname="CalculatorTests.CosTest" runstate="Runnable" seed="692318713" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000038" asserts="1" />
+          <test-case id="0-1035" name="PositiveCosTests(double.MaxValue,double.MaxValue)" fullname="CalculatorTests.CosTest.PositiveCosTests(double.MaxValue,double.MaxValue)" methodname="PositiveCosTests" classname="CalculatorTests.CosTest" runstate="Runnable" seed="1503376726" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000048" asserts="1" />
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1037" name="DivideTest" fullname="CalculatorTests.DivideTest" classname="CalculatorTests.DivideTest" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.018562" total="9" passed="1" failed="8" warnings="0" inconclusive="0" skipped="0" asserts="9">
+        <properties>
+          <property name="Category" value="Divide" />
+        </properties>
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="0-1047" name="NegativeDivideTests" fullname="CalculatorTests.DivideTest.NegativeDivideTests" methodname="NegativeDivideTests" classname="CalculatorTests.DivideTest" runstate="Runnable" seed="722488558" result="Failed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.010792" asserts="1">
+          <failure>
+            <message><![CDATA[  Expected: <System.DivideByZeroException>
+  But was:  null
+]]></message>
+            <stack-trace><![CDATA[   at CalculatorTests.DivideTest.NegativeDivideTests() in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\DivideTest.cs:line 40
+]]></stack-trace>
+          </failure>
+          <assertions>
+            <assertion result="Failed">
+              <message><![CDATA[  Expected: <System.DivideByZeroException>
+  But was:  null
+]]></message>
+              <stack-trace><![CDATA[   at CalculatorTests.DivideTest.NegativeDivideTests() in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\DivideTest.cs:line 40
+]]></stack-trace>
+            </assertion>
+          </assertions>
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="0-1046" name="PositiveDivideTests" fullname="CalculatorTests.DivideTest.PositiveDivideTests" classname="CalculatorTests.DivideTest" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.007525" total="8" passed="1" failed="7" warnings="0" inconclusive="0" skipped="0" asserts="8">
+          <properties>
+            <property name="Category" value="Positive" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1038" name="PositiveDivideTests(-1,1,-1)" fullname="CalculatorTests.DivideTest.PositiveDivideTests(-1,1,-1)" methodname="PositiveDivideTests" classname="CalculatorTests.DivideTest" runstate="Runnable" seed="607910703" result="Failed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000969" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 0.0d
+  But was:  -1.0d
+]]></message>
+              <stack-trace><![CDATA[   at CalculatorTests.DivideTest.PositiveDivideTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\DivideTest.cs:line 34
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 0.0d
+  But was:  -1.0d
+]]></message>
+                <stack-trace><![CDATA[   at CalculatorTests.DivideTest.PositiveDivideTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\DivideTest.cs:line 34
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1039" name="PositiveDivideTests(123,123,1)" fullname="CalculatorTests.DivideTest.PositiveDivideTests(123,123,1)" methodname="PositiveDivideTests" classname="CalculatorTests.DivideTest" runstate="Runnable" seed="263357357" result="Failed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.001939" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 246.0d
+  But was:  1.0d
+]]></message>
+              <stack-trace><![CDATA[   at CalculatorTests.DivideTest.PositiveDivideTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\DivideTest.cs:line 34
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 246.0d
+  But was:  1.0d
+]]></message>
+                <stack-trace><![CDATA[   at CalculatorTests.DivideTest.PositiveDivideTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\DivideTest.cs:line 34
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1040" name="PositiveDivideTests(-0.456d,0.456d,-1.0d)" fullname="CalculatorTests.DivideTest.PositiveDivideTests(-0.456d,0.456d,-1.0d)" methodname="PositiveDivideTests" classname="CalculatorTests.DivideTest" runstate="Runnable" seed="1680015291" result="Failed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.001268" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 0.0d
+  But was:  -1.0d
+]]></message>
+              <stack-trace><![CDATA[   at CalculatorTests.DivideTest.PositiveDivideTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\DivideTest.cs:line 34
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 0.0d
+  But was:  -1.0d
+]]></message>
+                <stack-trace><![CDATA[   at CalculatorTests.DivideTest.PositiveDivideTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\DivideTest.cs:line 34
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1041" name="PositiveDivideTests(-9,-6,1.5d)" fullname="CalculatorTests.DivideTest.PositiveDivideTests(-9,-6,1.5d)" methodname="PositiveDivideTests" classname="CalculatorTests.DivideTest" runstate="Runnable" seed="396624176" result="Failed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000557" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: -15.0d
+  But was:  1.5d
+]]></message>
+              <stack-trace><![CDATA[   at CalculatorTests.DivideTest.PositiveDivideTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\DivideTest.cs:line 34
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: -15.0d
+  But was:  1.5d
+]]></message>
+                <stack-trace><![CDATA[   at CalculatorTests.DivideTest.PositiveDivideTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\DivideTest.cs:line 34
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1042" name="PositiveDivideTests(-9,6,-1.5d)" fullname="CalculatorTests.DivideTest.PositiveDivideTests(-9,6,-1.5d)" methodname="PositiveDivideTests" classname="CalculatorTests.DivideTest" runstate="Runnable" seed="1173665355" result="Failed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.001335" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: -3.0d
+  But was:  -1.5d
+]]></message>
+              <stack-trace><![CDATA[   at CalculatorTests.DivideTest.PositiveDivideTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\DivideTest.cs:line 34
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: -3.0d
+  But was:  -1.5d
+]]></message>
+                <stack-trace><![CDATA[   at CalculatorTests.DivideTest.PositiveDivideTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\DivideTest.cs:line 34
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1043" name="PositiveDivideTests(5.6d,5.6d,1.0d)" fullname="CalculatorTests.DivideTest.PositiveDivideTests(5.6d,5.6d,1.0d)" methodname="PositiveDivideTests" classname="CalculatorTests.DivideTest" runstate="Runnable" seed="854406220" result="Failed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000582" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 11.199999999999999d
+  But was:  1.0d
+]]></message>
+              <stack-trace><![CDATA[   at CalculatorTests.DivideTest.PositiveDivideTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\DivideTest.cs:line 34
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 11.199999999999999d
+  But was:  1.0d
+]]></message>
+                <stack-trace><![CDATA[   at CalculatorTests.DivideTest.PositiveDivideTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\DivideTest.cs:line 34
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1044" name="PositiveDivideTests(int.MinValue,int.MaxValue,-1)" fullname="CalculatorTests.DivideTest.PositiveDivideTests(int.MinValue,int.MaxValue,-1)" methodname="PositiveDivideTests" classname="CalculatorTests.DivideTest" runstate="Runnable" seed="513093501" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000051" asserts="1" />
+          <test-case id="0-1045" name="PositiveDivideTests(double.MinValue,double.MaxValue,-1.0d)" fullname="CalculatorTests.DivideTest.PositiveDivideTests(double.MinValue,double.MaxValue,-1.0d)" methodname="PositiveDivideTests" classname="CalculatorTests.DivideTest" runstate="Runnable" seed="448486332" result="Failed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000494" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 0.0d
+  But was:  -1.0d
+]]></message>
+              <stack-trace><![CDATA[   at CalculatorTests.DivideTest.PositiveDivideTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\DivideTest.cs:line 34
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 0.0d
+  But was:  -1.0d
+]]></message>
+                <stack-trace><![CDATA[   at CalculatorTests.DivideTest.PositiveDivideTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\DivideTest.cs:line 34
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1048" name="IsNegativeTest" fullname="CalculatorTests.IsNegativeTest" classname="CalculatorTests.IsNegativeTest" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.009258" total="10" passed="9" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="10">
+        <properties>
+          <property name="Category" value="IsNegative" />
+        </properties>
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="0-1057" name="IsNegativeTests" fullname="CalculatorTests.IsNegativeTest.IsNegativeTests" classname="CalculatorTests.IsNegativeTest" runstate="Runnable" testcasecount="8" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.006270" total="8" passed="8" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="8">
+          <properties>
+            <property name="Category" value="Positive" />
+          </properties>
+          <test-case id="0-1049" name="IsNegativeTests(-1,True)" fullname="CalculatorTests.IsNegativeTest.IsNegativeTests(-1,True)" methodname="IsNegativeTests" classname="CalculatorTests.IsNegativeTest" runstate="Runnable" seed="2099825139" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.005695" asserts="1" />
+          <test-case id="0-1050" name="IsNegativeTests(123,False)" fullname="CalculatorTests.IsNegativeTest.IsNegativeTests(123,False)" methodname="IsNegativeTests" classname="CalculatorTests.IsNegativeTest" runstate="Runnable" seed="1542755279" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000114" asserts="1" />
+          <test-case id="0-1051" name="IsNegativeTests(-0.456d,True)" fullname="CalculatorTests.IsNegativeTest.IsNegativeTests(-0.456d,True)" methodname="IsNegativeTests" classname="CalculatorTests.IsNegativeTest" runstate="Runnable" seed="442060516" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000051" asserts="1" />
+          <test-case id="0-1052" name="IsNegativeTests(5.6d,False)" fullname="CalculatorTests.IsNegativeTest.IsNegativeTests(5.6d,False)" methodname="IsNegativeTests" classname="CalculatorTests.IsNegativeTest" runstate="Runnable" seed="1610627564" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000045" asserts="1" />
+          <test-case id="0-1053" name="IsNegativeTests(int.MinValue,True)" fullname="CalculatorTests.IsNegativeTest.IsNegativeTests(int.MinValue,True)" methodname="IsNegativeTests" classname="CalculatorTests.IsNegativeTest" runstate="Runnable" seed="1053912130" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000052" asserts="1" />
+          <test-case id="0-1054" name="IsNegativeTests(double.MinValue,True)" fullname="CalculatorTests.IsNegativeTest.IsNegativeTests(double.MinValue,True)" methodname="IsNegativeTests" classname="CalculatorTests.IsNegativeTest" runstate="Runnable" seed="139476967" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000045" asserts="1" />
+          <test-case id="0-1055" name="IsNegativeTests(int.MaxValue,False)" fullname="CalculatorTests.IsNegativeTest.IsNegativeTests(int.MaxValue,False)" methodname="IsNegativeTests" classname="CalculatorTests.IsNegativeTest" runstate="Runnable" seed="469821812" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000043" asserts="1" />
+          <test-case id="0-1056" name="IsNegativeTests(double.MaxValue,False)" fullname="CalculatorTests.IsNegativeTest.IsNegativeTests(double.MaxValue,False)" methodname="IsNegativeTests" classname="CalculatorTests.IsNegativeTest" runstate="Runnable" seed="121857012" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000045" asserts="1" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1060" name="IsNegativeTestZero" fullname="CalculatorTests.IsNegativeTest.IsNegativeTestZero" classname="CalculatorTests.IsNegativeTest" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.002628" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <properties>
+            <property name="Category" value="Positive" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1058" name="IsNegativeTestZero(0,False)" fullname="CalculatorTests.IsNegativeTest.IsNegativeTestZero(0,False)" methodname="IsNegativeTestZero" classname="CalculatorTests.IsNegativeTest" runstate="Runnable" seed="747776255" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000428" asserts="1" />
+          <test-case id="0-1059" name="IsNegativeTestZero(0,True)" fullname="CalculatorTests.IsNegativeTest.IsNegativeTestZero(0,True)" methodname="IsNegativeTestZero" classname="CalculatorTests.IsNegativeTest" runstate="Runnable" seed="74419443" result="Failed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.002149" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: not equal to True
+  But was:  True
+]]></message>
+              <stack-trace><![CDATA[   at CalculatorTests.IsNegativeTest.IsNegativeTestZero(Double firstVal, Boolean result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\IsNegativeTest.cs:line 48
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: not equal to True
+  But was:  True
+]]></message>
+                <stack-trace><![CDATA[   at CalculatorTests.IsNegativeTest.IsNegativeTestZero(Double firstVal, Boolean result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\IsNegativeTest.cs:line 48
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1061" name="IsPositiveTest" fullname="CalculatorTests.IsPositiveTest" classname="CalculatorTests.IsPositiveTest" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.002631" total="10" passed="9" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="10">
+        <properties>
+          <property name="Category" value="IsPositive" />
+        </properties>
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="0-1070" name="IsPositiveTests" fullname="CalculatorTests.IsPositiveTest.IsPositiveTests" classname="CalculatorTests.IsPositiveTest" runstate="Runnable" testcasecount="8" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.001413" total="8" passed="8" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="8">
+          <properties>
+            <property name="Category" value="Positive" />
+          </properties>
+          <test-case id="0-1062" name="IsPositiveTests(-1,False)" fullname="CalculatorTests.IsPositiveTest.IsPositiveTests(-1,False)" methodname="IsPositiveTests" classname="CalculatorTests.IsPositiveTest" runstate="Runnable" seed="251269840" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000395" asserts="1" />
+          <test-case id="0-1063" name="IsPositiveTests(123,True)" fullname="CalculatorTests.IsPositiveTest.IsPositiveTests(123,True)" methodname="IsPositiveTests" classname="CalculatorTests.IsPositiveTest" runstate="Runnable" seed="1586632641" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000057" asserts="1" />
+          <test-case id="0-1064" name="IsPositiveTests(-0.456d,False)" fullname="CalculatorTests.IsPositiveTest.IsPositiveTests(-0.456d,False)" methodname="IsPositiveTests" classname="CalculatorTests.IsPositiveTest" runstate="Runnable" seed="164358131" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000045" asserts="1" />
+          <test-case id="0-1065" name="IsPositiveTests(5.6d,True)" fullname="CalculatorTests.IsPositiveTest.IsPositiveTests(5.6d,True)" methodname="IsPositiveTests" classname="CalculatorTests.IsPositiveTest" runstate="Runnable" seed="245632982" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000048" asserts="1" />
+          <test-case id="0-1066" name="IsPositiveTests(int.MinValue,False)" fullname="CalculatorTests.IsPositiveTest.IsPositiveTests(int.MinValue,False)" methodname="IsPositiveTests" classname="CalculatorTests.IsPositiveTest" runstate="Runnable" seed="1996096670" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000635" asserts="1" />
+          <test-case id="0-1067" name="IsPositiveTests(double.MinValue,False)" fullname="CalculatorTests.IsPositiveTest.IsPositiveTests(double.MinValue,False)" methodname="IsPositiveTests" classname="CalculatorTests.IsPositiveTest" runstate="Runnable" seed="1383345166" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000060" asserts="1" />
+          <test-case id="0-1068" name="IsPositiveTests(int.MaxValue,True)" fullname="CalculatorTests.IsPositiveTest.IsPositiveTests(int.MaxValue,True)" methodname="IsPositiveTests" classname="CalculatorTests.IsPositiveTest" runstate="Runnable" seed="1859998786" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000043" asserts="1" />
+          <test-case id="0-1069" name="IsPositiveTests(double.MaxValue,True)" fullname="CalculatorTests.IsPositiveTest.IsPositiveTests(double.MaxValue,True)" methodname="IsPositiveTests" classname="CalculatorTests.IsPositiveTest" runstate="Runnable" seed="2082226391" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000045" asserts="1" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1073" name="IsPositiveTestZero" fullname="CalculatorTests.IsPositiveTest.IsPositiveTestZero" classname="CalculatorTests.IsPositiveTest" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000972" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <properties>
+            <property name="Category" value="Positive" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1071" name="IsPositiveTestZero(0,False)" fullname="CalculatorTests.IsPositiveTest.IsPositiveTestZero(0,False)" methodname="IsPositiveTestZero" classname="CalculatorTests.IsPositiveTest" runstate="Runnable" seed="869999721" result="Failed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000876" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: not equal to False
+  But was:  False
+]]></message>
+              <stack-trace><![CDATA[   at CalculatorTests.IsPositiveTest.IsPositiveTestZero(Double firstVal, Boolean result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\IsPositiveTest.cs:line 48
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: not equal to False
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[   at CalculatorTests.IsPositiveTest.IsPositiveTestZero(Double firstVal, Boolean result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\IsPositiveTest.cs:line 48
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1072" name="IsPositiveTestZero(0,True)" fullname="CalculatorTests.IsPositiveTest.IsPositiveTestZero(0,True)" methodname="IsPositiveTestZero" classname="CalculatorTests.IsPositiveTest" runstate="Runnable" seed="1531895809" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000060" asserts="1" />
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1074" name="MultiplyTest" fullname="CalculatorTests.MultiplyTest" classname="CalculatorTests.MultiplyTest" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.001462" total="10" passed="9" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="10">
+        <properties>
+          <property name="Category" value="Multiply" />
+        </properties>
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="0-1085" name="PositiveMultiplyTests" fullname="CalculatorTests.MultiplyTest.PositiveMultiplyTests" classname="CalculatorTests.MultiplyTest" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.001249" total="10" passed="9" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="10">
+          <properties>
+            <property name="Category" value="Positive" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1075" name="PositiveMultiplyTests(-1,1,-1)" fullname="CalculatorTests.MultiplyTest.PositiveMultiplyTests(-1,1,-1)" methodname="PositiveMultiplyTests" classname="CalculatorTests.MultiplyTest" runstate="Runnable" seed="89529304" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000214" asserts="1" />
+          <test-case id="0-1076" name="PositiveMultiplyTests(-1,0,0)" fullname="CalculatorTests.MultiplyTest.PositiveMultiplyTests(-1,0,0)" methodname="PositiveMultiplyTests" classname="CalculatorTests.MultiplyTest" runstate="Runnable" seed="1772832285" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000062" asserts="1" />
+          <test-case id="0-1077" name="PositiveMultiplyTests(0,1,0)" fullname="CalculatorTests.MultiplyTest.PositiveMultiplyTests(0,1,0)" methodname="PositiveMultiplyTests" classname="CalculatorTests.MultiplyTest" runstate="Runnable" seed="816654221" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000037" asserts="1" />
+          <test-case id="0-1078" name="PositiveMultiplyTests(123,123,15129)" fullname="CalculatorTests.MultiplyTest.PositiveMultiplyTests(123,123,15129)" methodname="PositiveMultiplyTests" classname="CalculatorTests.MultiplyTest" runstate="Runnable" seed="1733337601" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000036" asserts="1" />
+          <test-case id="0-1079" name="PositiveMultiplyTests(-0.456d,0.456d,-0.207936d)" fullname="CalculatorTests.MultiplyTest.PositiveMultiplyTests(-0.456d,0.456d,-0.207936d)" methodname="PositiveMultiplyTests" classname="CalculatorTests.MultiplyTest" runstate="Runnable" seed="254286044" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000036" asserts="1" />
+          <test-case id="0-1080" name="PositiveMultiplyTests(-9,-6,54)" fullname="CalculatorTests.MultiplyTest.PositiveMultiplyTests(-9,-6,54)" methodname="PositiveMultiplyTests" classname="CalculatorTests.MultiplyTest" runstate="Runnable" seed="1474320339" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000035" asserts="1" />
+          <test-case id="0-1081" name="PositiveMultiplyTests(-9,6,-54)" fullname="CalculatorTests.MultiplyTest.PositiveMultiplyTests(-9,6,-54)" methodname="PositiveMultiplyTests" classname="CalculatorTests.MultiplyTest" runstate="Runnable" seed="425430728" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000036" asserts="1" />
+          <test-case id="0-1082" name="PositiveMultiplyTests(5.6d,5.6d,31.36d)" fullname="CalculatorTests.MultiplyTest.PositiveMultiplyTests(5.6d,5.6d,31.36d)" methodname="PositiveMultiplyTests" classname="CalculatorTests.MultiplyTest" runstate="Runnable" seed="948953586" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000035" asserts="1" />
+          <test-case id="0-1083" name="PositiveMultiplyTests(int.MinValue,2147483648,4.61168601842739E+18d)" fullname="CalculatorTests.MultiplyTest.PositiveMultiplyTests(int.MinValue,2147483648,4.61168601842739E+18d)" methodname="PositiveMultiplyTests" classname="CalculatorTests.MultiplyTest" runstate="Runnable" seed="2040897103" result="Failed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000621" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: -4.6116860184273879E+18d
+  But was:  4.6116860184273879E+18d
+]]></message>
+              <stack-trace><![CDATA[   at CalculatorTests.MultiplyTest.PositiveMultiplyTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\MultiplyTest.cs:line 36
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: -4.6116860184273879E+18d
+  But was:  4.6116860184273879E+18d
+]]></message>
+                <stack-trace><![CDATA[   at CalculatorTests.MultiplyTest.PositiveMultiplyTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\MultiplyTest.cs:line 36
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1084" name="PositiveMultiplyTests(double.MinValue,double.MaxValue,double.NegativeInfinity)" fullname="CalculatorTests.MultiplyTest.PositiveMultiplyTests(double.MinValue,double.MaxValue,double.NegativeInfinity)" methodname="PositiveMultiplyTests" classname="CalculatorTests.MultiplyTest" runstate="Runnable" seed="2060271956" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000048" asserts="1" />
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1086" name="PowTest" fullname="CalculatorTests.PowTest" classname="CalculatorTests.PowTest" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.005234" total="9" passed="0" failed="9" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <properties>
+          <property name="Category" value="Pow" />
+        </properties>
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="0-1096" name="PositivePowTests" fullname="CalculatorTests.PowTest.PositivePowTests" classname="CalculatorTests.PowTest" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.005024" total="9" passed="0" failed="9" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <properties>
+            <property name="Category" value="Positive" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1087" name="PositivePowTests(-1,1,-1.0d)" fullname="CalculatorTests.PowTest.PositivePowTests(-1,1,-1.0d)" methodname="PositivePowTests" classname="CalculatorTests.PowTest" runstate="Runnable" seed="1932445412" result="Failed" label="Error" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.001123" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at CalculatorTests.PowTest.PositivePowTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\PowTest.cs:line 35]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1088" name="PositivePowTests(-1,0,1.0d)" fullname="CalculatorTests.PowTest.PositivePowTests(-1,0,1.0d)" methodname="PositivePowTests" classname="CalculatorTests.PowTest" runstate="Runnable" seed="1077215732" result="Failed" label="Error" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000701" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at CalculatorTests.PowTest.PositivePowTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\PowTest.cs:line 35]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1089" name="PositivePowTests(0,1,0.0d)" fullname="CalculatorTests.PowTest.PositivePowTests(0,1,0.0d)" methodname="PositivePowTests" classname="CalculatorTests.PowTest" runstate="Runnable" seed="750630567" result="Failed" label="Error" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000474" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at CalculatorTests.PowTest.PositivePowTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\PowTest.cs:line 35]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1090" name="PositivePowTests(123,123,1.14374367934617E+257d)" fullname="CalculatorTests.PowTest.PositivePowTests(123,123,1.14374367934617E+257d)" methodname="PositivePowTests" classname="CalculatorTests.PowTest" runstate="Runnable" seed="1078070167" result="Failed" label="Error" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000448" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at CalculatorTests.PowTest.PositivePowTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\PowTest.cs:line 35]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1091" name="PositivePowTests(-0.456d,0.456d,double.NaN)" fullname="CalculatorTests.PowTest.PositivePowTests(-0.456d,0.456d,double.NaN)" methodname="PositivePowTests" classname="CalculatorTests.PowTest" runstate="Runnable" seed="1196124770" result="Failed" label="Error" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000436" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at CalculatorTests.PowTest.PositivePowTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\PowTest.cs:line 35]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1092" name="PositivePowTests(-9,-6,1.88167642315892E-06d)" fullname="CalculatorTests.PowTest.PositivePowTests(-9,-6,1.88167642315892E-06d)" methodname="PositivePowTests" classname="CalculatorTests.PowTest" runstate="Runnable" seed="328055805" result="Failed" label="Error" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000436" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at CalculatorTests.PowTest.PositivePowTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\PowTest.cs:line 35]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1093" name="PositivePowTests(-9,6,531441.0d)" fullname="CalculatorTests.PowTest.PositivePowTests(-9,6,531441.0d)" methodname="PositivePowTests" classname="CalculatorTests.PowTest" runstate="Runnable" seed="902410613" result="Failed" label="Error" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000429" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at CalculatorTests.PowTest.PositivePowTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\PowTest.cs:line 35]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1094" name="PositivePowTests(5.6d,5.6d,15482.9229031097d)" fullname="CalculatorTests.PowTest.PositivePowTests(5.6d,5.6d,15482.9229031097d)" methodname="PositivePowTests" classname="CalculatorTests.PowTest" runstate="Runnable" seed="1818550659" result="Failed" label="Error" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000424" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at CalculatorTests.PowTest.PositivePowTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\PowTest.cs:line 35]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1095" name="PositivePowTests(double.MinValue,double.MaxValue,double.PositiveInfinity)" fullname="CalculatorTests.PowTest.PositivePowTests(double.MinValue,double.MaxValue,double.PositiveInfinity)" methodname="PositivePowTests" classname="CalculatorTests.PowTest" runstate="Runnable" seed="1615803751" result="Failed" label="Error" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000439" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at CalculatorTests.PowTest.PositivePowTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\PowTest.cs:line 35]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1097" name="SinTest" fullname="CalculatorTests.SinTest" classname="CalculatorTests.SinTest" runstate="Runnable" testcasecount="11" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.003645" total="11" passed="11" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="11">
+        <properties>
+          <property name="Category" value="Cos" />
+        </properties>
+        <test-suite type="ParameterizedMethod" id="0-1109" name="PositiveSinTests" fullname="CalculatorTests.SinTest.PositiveSinTests" classname="CalculatorTests.SinTest" runstate="Runnable" testcasecount="11" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000869" total="11" passed="11" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="11">
+          <properties>
+            <property name="Category" value="Positive" />
+          </properties>
+          <test-case id="0-1098" name="PositiveSinTests(0,0.0d)" fullname="CalculatorTests.SinTest.PositiveSinTests(0,0.0d)" methodname="PositiveSinTests" classname="CalculatorTests.SinTest" runstate="Runnable" seed="2076012283" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000380" asserts="1" />
+          <test-case id="0-1099" name="PositiveSinTests(-1,-0.841470984807897d)" fullname="CalculatorTests.SinTest.PositiveSinTests(-1,-0.841470984807897d)" methodname="PositiveSinTests" classname="CalculatorTests.SinTest" runstate="Runnable" seed="2111325338" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000047" asserts="1" />
+          <test-case id="0-1100" name="PositiveSinTests(1,0.841470984807897d)" fullname="CalculatorTests.SinTest.PositiveSinTests(1,0.841470984807897d)" methodname="PositiveSinTests" classname="CalculatorTests.SinTest" runstate="Runnable" seed="1288264357" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000052" asserts="1" />
+          <test-case id="0-1101" name="PositiveSinTests(123,-0.459903490689591d)" fullname="CalculatorTests.SinTest.PositiveSinTests(123,-0.459903490689591d)" methodname="PositiveSinTests" classname="CalculatorTests.SinTest" runstate="Runnable" seed="791691222" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000037" asserts="1" />
+          <test-case id="0-1102" name="PositiveSinTests(-123,0.459903490689591d)" fullname="CalculatorTests.SinTest.PositiveSinTests(-123,0.459903490689591d)" methodname="PositiveSinTests" classname="CalculatorTests.SinTest" runstate="Runnable" seed="497932722" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000037" asserts="1" />
+          <test-case id="0-1103" name="PositiveSinTests(-0.456d,-0.440360354953183d)" fullname="CalculatorTests.SinTest.PositiveSinTests(-0.456d,-0.440360354953183d)" methodname="PositiveSinTests" classname="CalculatorTests.SinTest" runstate="Runnable" seed="690247775" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000035" asserts="1" />
+          <test-case id="0-1104" name="PositiveSinTests(5.6d,-0.631266637872322d)" fullname="CalculatorTests.SinTest.PositiveSinTests(5.6d,-0.631266637872322d)" methodname="PositiveSinTests" classname="CalculatorTests.SinTest" runstate="Runnable" seed="56902107" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000037" asserts="1" />
+          <test-case id="0-1105" name="PositiveSinTests(int.MinValue,0.971310175792282d)" fullname="CalculatorTests.SinTest.PositiveSinTests(int.MinValue,0.971310175792282d)" methodname="PositiveSinTests" classname="CalculatorTests.SinTest" runstate="Runnable" seed="1440678158" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000036" asserts="1" />
+          <test-case id="0-1106" name="PositiveSinTests(double.MinValue,double.MinValue)" fullname="CalculatorTests.SinTest.PositiveSinTests(double.MinValue,double.MinValue)" methodname="PositiveSinTests" classname="CalculatorTests.SinTest" runstate="Runnable" seed="266275906" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000035" asserts="1" />
+          <test-case id="0-1107" name="PositiveSinTests(int.MaxValue,-0.724916555146461d)" fullname="CalculatorTests.SinTest.PositiveSinTests(int.MaxValue,-0.724916555146461d)" methodname="PositiveSinTests" classname="CalculatorTests.SinTest" runstate="Runnable" seed="1955786072" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000036" asserts="1" />
+          <test-case id="0-1108" name="PositiveSinTests(double.MaxValue,double.MaxValue)" fullname="CalculatorTests.SinTest.PositiveSinTests(double.MaxValue,double.MaxValue)" methodname="PositiveSinTests" classname="CalculatorTests.SinTest" runstate="Runnable" seed="1451614571" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000036" asserts="1" />
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1110" name="SqrtTest" fullname="CalculatorTests.SqrtTest" classname="CalculatorTests.SqrtTest" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.003548" total="10" passed="6" failed="4" warnings="0" inconclusive="0" skipped="0" asserts="8">
+        <properties>
+          <property name="Category" value="Sqrt" />
+        </properties>
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="0-1121" name="PositiveSqrtTests" fullname="CalculatorTests.SqrtTest.PositiveSqrtTests" classname="CalculatorTests.SqrtTest" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.003355" total="10" passed="6" failed="4" warnings="0" inconclusive="0" skipped="0" asserts="8">
+          <properties>
+            <property name="Category" value="Positive" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1111" name="PositiveSqrtTests(0,0.0d)" fullname="CalculatorTests.SqrtTest.PositiveSqrtTests(0,0.0d)" methodname="PositiveSqrtTests" classname="CalculatorTests.SqrtTest" runstate="Runnable" seed="564573389" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000274" asserts="1" />
+          <test-case id="0-1112" name="PositiveSqrtTests(-1,double.NaN)" fullname="CalculatorTests.SqrtTest.PositiveSqrtTests(-1,double.NaN)" methodname="PositiveSqrtTests" classname="CalculatorTests.SqrtTest" runstate="Runnable" seed="214384319" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000052" asserts="1" />
+          <test-case id="0-1113" name="PositiveSqrtTests(123,11.0905365064094d)" fullname="CalculatorTests.SqrtTest.PositiveSqrtTests(123,11.0905365064094d)" methodname="PositiveSqrtTests" classname="CalculatorTests.SqrtTest" runstate="Runnable" seed="1622982109" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000039" asserts="1" />
+          <test-case id="0-1114" name="PositiveSqrtTests(-0.456d,double.NaN)" fullname="CalculatorTests.SqrtTest.PositiveSqrtTests(-0.456d,double.NaN)" methodname="PositiveSqrtTests" classname="CalculatorTests.SqrtTest" runstate="Runnable" seed="10300545" result="Failed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.001166" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 0.0d
+  But was:  NaN
+]]></message>
+              <stack-trace><![CDATA[   at CalculatorTests.SqrtTest.PositiveSqrtTests(Double firstVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\SqrtTest.cs:line 36
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 0.0d
+  But was:  NaN
+]]></message>
+                <stack-trace><![CDATA[   at CalculatorTests.SqrtTest.PositiveSqrtTests(Double firstVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\SqrtTest.cs:line 36
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1115" name="PositiveSqrtTests(-9,double.NaN)" fullname="CalculatorTests.SqrtTest.PositiveSqrtTests(-9,double.NaN)" methodname="PositiveSqrtTests" classname="CalculatorTests.SqrtTest" runstate="Runnable" seed="1394988931" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000083" asserts="1" />
+          <test-case id="0-1116" name="PositiveSqrtTests(5.6d,2.36643191323985d)" fullname="CalculatorTests.SqrtTest.PositiveSqrtTests(5.6d,2.36643191323985d)" methodname="PositiveSqrtTests" classname="CalculatorTests.SqrtTest" runstate="Runnable" seed="1988407763" result="Failed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000775" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 2.4494897427831779d
+  But was:  2.3664319132398464d
+]]></message>
+              <stack-trace><![CDATA[   at CalculatorTests.SqrtTest.PositiveSqrtTests(Double firstVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\SqrtTest.cs:line 36
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 2.4494897427831779d
+  But was:  2.3664319132398464d
+]]></message>
+                <stack-trace><![CDATA[   at CalculatorTests.SqrtTest.PositiveSqrtTests(Double firstVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\SqrtTest.cs:line 36
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1117" name="PositiveSqrtTests(int.MinValue,double.NaN)" fullname="CalculatorTests.SqrtTest.PositiveSqrtTests(int.MinValue,double.NaN)" methodname="PositiveSqrtTests" classname="CalculatorTests.SqrtTest" runstate="Runnable" seed="386157719" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000056" asserts="1" />
+          <test-case id="0-1118" name="PositiveSqrtTests(double.MinValue,double.NaN)" fullname="CalculatorTests.SqrtTest.PositiveSqrtTests(double.MinValue,double.NaN)" methodname="PositiveSqrtTests" classname="CalculatorTests.SqrtTest" runstate="Runnable" seed="786546345" result="Failed" label="Error" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000429" asserts="0">
+            <failure>
+              <message><![CDATA[System.OverflowException : Value was either too large or too small for an Int32.]]></message>
+              <stack-trace><![CDATA[   at System.Convert.ToInt32(Double value)
+   at CSharpCalculator.Calculator.Sqrt(Object a)
+   at CalculatorTests.SqrtTest.PositiveSqrtTests(Double firstVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\SqrtTest.cs:line 36]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1119" name="PositiveSqrtTests(int.MaxValue,46340.950001052d)" fullname="CalculatorTests.SqrtTest.PositiveSqrtTests(int.MaxValue,46340.950001052d)" methodname="PositiveSqrtTests" classname="CalculatorTests.SqrtTest" runstate="Runnable" seed="1759496196" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000046" asserts="1" />
+          <test-case id="0-1120" name="PositiveSqrtTests(double.MaxValue,1.34078079299426E+154d)" fullname="CalculatorTests.SqrtTest.PositiveSqrtTests(double.MaxValue,1.34078079299426E+154d)" methodname="PositiveSqrtTests" classname="CalculatorTests.SqrtTest" runstate="Runnable" seed="1108882924" result="Failed" label="Error" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000317" asserts="0">
+            <failure>
+              <message><![CDATA[System.OverflowException : Value was either too large or too small for an Int32.]]></message>
+              <stack-trace><![CDATA[   at System.Convert.ToInt32(Double value)
+   at CSharpCalculator.Calculator.Sqrt(Object a)
+   at CalculatorTests.SqrtTest.PositiveSqrtTests(Double firstVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\SqrtTest.cs:line 36]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1122" name="SubTest" fullname="CalculatorTests.SubTest" classname="CalculatorTests.SubTest" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.017106" total="9" passed="2" failed="7" warnings="0" inconclusive="0" skipped="0" asserts="9">
+        <properties>
+          <property name="Category" value="Sub" />
+        </properties>
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="0-1132" name="PositiveSubTests" fullname="CalculatorTests.SubTest.PositiveSubTests" classname="CalculatorTests.SubTest" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.016821" total="9" passed="2" failed="7" warnings="0" inconclusive="0" skipped="0" asserts="9">
+          <properties>
+            <property name="Category" value="Positive" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1123" name="PositiveSubTests(0,0,0)" fullname="CalculatorTests.SubTest.PositiveSubTests(0,0,0)" methodname="PositiveSubTests" classname="CalculatorTests.SubTest" runstate="Runnable" seed="1232109668" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000223" asserts="1" />
+          <test-case id="0-1124" name="PositiveSubTests(-1,1,-2)" fullname="CalculatorTests.SubTest.PositiveSubTests(-1,1,-2)" methodname="PositiveSubTests" classname="CalculatorTests.SubTest" runstate="Runnable" seed="1955451037" result="Failed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000625" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 0.0d
+  But was:  -2.0d
+]]></message>
+              <stack-trace><![CDATA[   at CalculatorTests.SubTest.PositiveSubTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\SubTest.cs:line 34
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 0.0d
+  But was:  -2.0d
+]]></message>
+                <stack-trace><![CDATA[   at CalculatorTests.SubTest.PositiveSubTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\SubTest.cs:line 34
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1125" name="PositiveSubTests(123,123,0)" fullname="CalculatorTests.SubTest.PositiveSubTests(123,123,0)" methodname="PositiveSubTests" classname="CalculatorTests.SubTest" runstate="Runnable" seed="1921394466" result="Failed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000476" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 246.0d
+  But was:  0.0d
+]]></message>
+              <stack-trace><![CDATA[   at CalculatorTests.SubTest.PositiveSubTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\SubTest.cs:line 34
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 246.0d
+  But was:  0.0d
+]]></message>
+                <stack-trace><![CDATA[   at CalculatorTests.SubTest.PositiveSubTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\SubTest.cs:line 34
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1126" name="PositiveSubTests(-0.456d,0.456d,-0.912d)" fullname="CalculatorTests.SubTest.PositiveSubTests(-0.456d,0.456d,-0.912d)" methodname="PositiveSubTests" classname="CalculatorTests.SubTest" runstate="Runnable" seed="493221969" result="Failed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000461" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 0.0d
+  But was:  -0.91200000000000003d
+]]></message>
+              <stack-trace><![CDATA[   at CalculatorTests.SubTest.PositiveSubTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\SubTest.cs:line 34
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 0.0d
+  But was:  -0.91200000000000003d
+]]></message>
+                <stack-trace><![CDATA[   at CalculatorTests.SubTest.PositiveSubTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\SubTest.cs:line 34
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1127" name="PositiveSubTests(-9,-6,-3)" fullname="CalculatorTests.SubTest.PositiveSubTests(-9,-6,-3)" methodname="PositiveSubTests" classname="CalculatorTests.SubTest" runstate="Runnable" seed="355660226" result="Failed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000470" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: -15.0d
+  But was:  -3.0d
+]]></message>
+              <stack-trace><![CDATA[   at CalculatorTests.SubTest.PositiveSubTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\SubTest.cs:line 34
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: -15.0d
+  But was:  -3.0d
+]]></message>
+                <stack-trace><![CDATA[   at CalculatorTests.SubTest.PositiveSubTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\SubTest.cs:line 34
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1128" name="PositiveSubTests(5.6d,5.6d,11.2d)" fullname="CalculatorTests.SubTest.PositiveSubTests(5.6d,5.6d,11.2d)" methodname="PositiveSubTests" classname="CalculatorTests.SubTest" runstate="Runnable" seed="1502193933" result="Passed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000046" asserts="1" />
+          <test-case id="0-1129" name="PositiveSubTests(-5.6d,-5.6d,0)" fullname="CalculatorTests.SubTest.PositiveSubTests(-5.6d,-5.6d,0)" methodname="PositiveSubTests" classname="CalculatorTests.SubTest" runstate="Runnable" seed="320688366" result="Failed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000450" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: -11.199999999999999d
+  But was:  0.0d
+]]></message>
+              <stack-trace><![CDATA[   at CalculatorTests.SubTest.PositiveSubTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\SubTest.cs:line 34
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: -11.199999999999999d
+  But was:  0.0d
+]]></message>
+                <stack-trace><![CDATA[   at CalculatorTests.SubTest.PositiveSubTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\SubTest.cs:line 34
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1130" name="PositiveSubTests(int.MinValue,int.MaxValue,-4294967295L)" fullname="CalculatorTests.SubTest.PositiveSubTests(int.MinValue,int.MaxValue,-4294967295L)" methodname="PositiveSubTests" classname="CalculatorTests.SubTest" runstate="Runnable" seed="1667583209" result="Failed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.013288" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: -1.0d
+  But was:  -4294967295.0d
+]]></message>
+              <stack-trace><![CDATA[   at CalculatorTests.SubTest.PositiveSubTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\SubTest.cs:line 34
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: -1.0d
+  But was:  -4294967295.0d
+]]></message>
+                <stack-trace><![CDATA[   at CalculatorTests.SubTest.PositiveSubTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\SubTest.cs:line 34
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1131" name="PositiveSubTests(double.MinValue,double.MinValue,0)" fullname="CalculatorTests.SubTest.PositiveSubTests(double.MinValue,double.MinValue,0)" methodname="PositiveSubTests" classname="CalculatorTests.SubTest" runstate="Runnable" seed="1686912167" result="Failed" start-time="2018-01-30 08:24:38Z" end-time="2018-01-30 08:24:38Z" duration="0.000674" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: -∞
+  But was:  0.0d
+]]></message>
+              <stack-trace><![CDATA[   at CalculatorTests.SubTest.PositiveSubTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\SubTest.cs:line 34
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: -∞
+  But was:  0.0d
+]]></message>
+                <stack-trace><![CDATA[   at CalculatorTests.SubTest.PositiveSubTests(Double firstVal, Double secVal, Double result) in D:\Gorsky\LabProjects\CalculatorTests\CalculatorTests\SubTest.cs:line 34
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
